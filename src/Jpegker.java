@@ -1,4 +1,3 @@
-package JpegPacker;
 import java.io.*;
 import java.util.LinkedList;
 import java.util.List;
@@ -22,7 +21,7 @@ public class Jpegker {
     static boolean debug =true;
     static String[] input_file = {"test.mp4"};
 
-    static String path = JPacker.class.getProtectionDomain().getCodeSource().getLocation().getPath();
+    static String path = Jpegker.class.getProtectionDomain().getCodeSource().getLocation().getPath();
 
     static List<MovieObject> mo = new LinkedList<>();
 
